@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+
+body {
+  background-image: url(https://media1.tenor.com/images/8eb19063c3a1617b48b6032e8cfe8e12/tenor.gif?itemid=7267498);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.coffeeHeader {
+
+  font-family: 'Courier New', Courier, monospace;
+
+  font-size: 50px;
+}
+
+.coffeeSub {
+
+  font-family: 'Courier New', Courier, monospace;
+
+  font-size: 30px;
+}
+
+
+.timerDisplay{
+
+  font-family: monospace;
+
+  font-size: 40px;
+}
+
+
