@@ -8,13 +8,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
+  
+
 }
 
 .coffeeHeader {
-
+  text-shadow: 1px 2px 2px #91761F;
   font-family: 'Courier New', Courier, monospace;
 
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .coffeeSub {
@@ -26,10 +28,17 @@ body {
 
 
 .timerDisplay{
-
+  text-shadow: 1px 2px 2px #91761F;
   font-family: monospace;
 
   font-size: 40px;
 }
 
+.coffeeGlasses {
+  
+  font-family:monospace;
+  font-size: 20px;
+  text-shadow: 1px 2px 2px #91761F;
+
+}
 

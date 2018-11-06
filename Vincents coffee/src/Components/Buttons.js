@@ -1,22 +1,24 @@
 import React, { Component } from 'react';
 
 class Buttons extends Component {
-    state = {  }
+    state = {}
 
 
 
-    render() { 
+    render() {
 
 
-    let disappear = this.props.theFunctions.isOn ? <button onClick={this.props.theFunctions.stop}>Stop</button> : <div><button onClick={this.props.theFunctions.start}>Start</button> <button onClick={this.props.theFunctions.reset}>Reset</button></div> 
 
-        return (  
+        let disappear = this.props.theFunctions.isOn ? <button onClick={this.props.theFunctions.stop}>Stop</button> : <div><button onClick={this.props.theFunctions.start}>Start</button> <button onClick={this.props.theFunctions.reset}>Reset</button></div>
+
+        return (
             <div>
 
                 {/* <button onClick={this.props.theFunctions.start}>Start</button> */}
                 {/* <button onClick={this.props.theFunctions.stop}>Stop</button>
                 <button onClick={this.props.theFunctions.reset}>Reset</button>       */}
-                {disappear} 
+                {disappear}
+
 
             </div>
 
@@ -24,5 +26,5 @@ class Buttons extends Component {
         );
     }
 }
- 
-export default Buttons ;
+
+export default Buttons;
