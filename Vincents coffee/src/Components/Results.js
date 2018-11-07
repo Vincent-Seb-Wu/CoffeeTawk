@@ -6,7 +6,7 @@ class Results extends Component {
         return (
 
             <div>{this.props.records.map(function (value) {
-                return <li class="dataForm">{value}</li>
+                return <li className="dataForm">{value}</li>
             })}</div>
 
 

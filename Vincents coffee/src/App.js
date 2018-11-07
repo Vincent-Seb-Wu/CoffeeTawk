@@ -25,6 +25,7 @@ class App extends Component {
 
   submit() {
     alert("Submitted!")
+    window.location.reload();
   }
 
 
