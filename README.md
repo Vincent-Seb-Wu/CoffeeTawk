@@ -19,8 +19,6 @@ Glasses choice:
 Submit:
 
   -When pressed, data should get sent to database, page refreshes for easy-and-fast use
-  
-![Alt_text]()
 
 ## **Link**
 
